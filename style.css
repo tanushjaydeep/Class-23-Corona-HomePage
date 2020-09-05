@@ -1,0 +1,138 @@
+#navbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+ul {
+  display: -webkit-box;
+  display: flex;
+  align-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.875em;
+  text-decoration: none;
+  padding: 1em;
+  white-space: nowrap;
+  letter-spacing: 1px;
+}
+
+ul li a:hover {
+  border-bottom: 3px solid #fff;
+}
+
+.header {
+  padding: 20px;
+  height: 100vh;
+  background: url(https://einsteinperspectives.com/wp-content/uploads/2020/02/Coronavirus-1.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+.header h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.header .content {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1583423230902-b653abc541eb?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+
+.flex1 {
+  display: -webkit-box;
+  display: flex;
+  color: white;
+  padding: 100px 150px 150px 100px;
+  position: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#16222a), to(#4e4376));
+  background: linear-gradient(to bottom, #16222a, #4e4376);
+}
+.flex1-child {
+  -webkit-box-flex: 1;
+          flex: 1;
+}
+.flex1 h1 {
+  font-size: 325%;
+  text-align: center;
+}
+.flex1 p {
+  font-weight: 400%;
+  font-family: serif;
+  font-size: 150%;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.flex2 {
+  display: -webkit-box;
+  display: flex;
+  color: white;
+  padding: 100px 150px 150px 100px;
+  position: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0f2027), color-stop(#203a43), to(#2c5364));
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+}
+.flex2-child {
+  -webkit-box-flex: 1;
+          flex: 1;
+}
+.flex2 h1 {
+  font-size: 325%;
+  text-align: center;
+}
+.flex2 p {
+  font-weight: 400%;
+  font-family: sans-serif;
+  font-size: 150%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: flex;
+  color: white;
+  padding-left: 3%;
+  padding-right: 3%;
+  position: center;
+}
+.flex-child {
+  -webkit-box-flex: 1;
+          flex: 1;
+}
+
+.flex--vertical {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.flex--vertical > .flex-child {
+  padding-left: 3%;
+  padding-right: 3%;
+  min-width: 100%;
+}
